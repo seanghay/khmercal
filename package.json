@@ -1,23 +1,30 @@
 {
-  "name": "khmercal",
-  "description": "Simple Khmer calendar",
-  "version": "0.0.1",
-  "main": "index.js",
-  "repository": "seanghay/khmercal",
-  "type": "module",
-  "author": {
-    "name": "Seanghay Yath",
-    "email": "seanghay.dev@gmail.com",
-    "url": "https://github.com/seanghay"
-  },
-  "license": "Apache-2.0",
-  "files": [
-    "cli.js",
-    "index.js"
-  ],
-  "bin": "./cli.js",
-  "dependencies": {
-    "lodash.template": "^4.5.0",
-    "yargs": "^17.6.2"
-  }
+	"name": "khmercal",
+	"description": "Simple Khmer calendar",
+	"keywords": [
+		"khmer",
+		"khmer-calendar",
+		"khmer-lunisolar",
+		"khmer-lunar",
+		"chhankitek"
+	],
+	"version": "0.0.1",
+	"main": "index.js",
+	"repository": "seanghay/khmercal",
+	"type": "module",
+	"author": {
+		"name": "Seanghay Yath",
+		"email": "seanghay.dev@gmail.com",
+		"url": "https://github.com/seanghay"
+	},
+	"license": "Apache-2.0",
+	"files": [
+		"cli.js",
+		"index.js"
+	],
+	"bin": "./cli.js",
+	"dependencies": {
+		"lodash.template": "^4.5.0",
+		"yargs": "^17.6.2"
+	}
 }
