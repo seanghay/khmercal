@@ -16,7 +16,7 @@ yargs(hideBin(process.argv))
     const result = lunar(date);
 
     if (json) {
-      console.log(result);
+      console.log(JSON.stringify(result, null, 2));
       return;
     }
 
