@@ -1,6 +1,7 @@
 {
   "name": "khmercal",
   "description": "Simple Khmer calendar",
+  "version": "0.0.0",
   "main": "index.js",
   "repository": "seanghay/khmercal",
   "type": "module",
