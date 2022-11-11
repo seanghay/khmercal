@@ -105,3 +105,4 @@ khmercal "2022-11-11T10:11:54.654Z" --json
 
 - [khmerword](https://github.com/seanghay/khmerword)
 - [khmernumber](https://github.com/seanghay/khmernumber)
+- [is-khmer](https://github.com/seanghay/is-khmer)
