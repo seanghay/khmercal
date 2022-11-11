@@ -32,6 +32,11 @@ lunar(new Date())
 
 ## CLI
 
+```
+npm install -g khmercal
+```
+
+
 1. Basic output
 
 ```shell
