@@ -17,7 +17,7 @@
 		"email": "seanghay.dev@gmail.com",
 		"url": "https://github.com/seanghay"
 	},
-	"license": "Apache-2.0",
+	"license": "MIT",
 	"files": [
 		"cli.js",
 		"index.js"
