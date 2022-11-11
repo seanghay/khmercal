@@ -101,6 +101,23 @@ khmercal "2022-11-11T10:11:54.654Z" --json
 }
 ```
 
+### CLI Manual
+
+```
+khmercal [date]
+
+Convert
+
+Positionals:
+  date  ISO Date string                            [string] [default: (default)]
+
+Options:
+      --help     Show help                                             [boolean]
+      --version  Show version number                                   [boolean]
+  -j, --json     JSON output                          [boolean] [default: false]
+```
+
+
 ## Related
 
 - [khmerword](https://github.com/seanghay/khmerword)
