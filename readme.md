@@ -16,7 +16,7 @@ lunar(new Date())
   day: 18,
   period: [ 3, 'R' ],
   sequence: 3,
-  animal: 'KARL',
+  zodiac: 'KARL',
   years: { JE: 1383, CE: 2022, BE: 2566 },
   length: 354,
   monthLength: 30,
@@ -54,7 +54,7 @@ Day: 3R (18 of 30)
 Month: KÂTDĔK
 Years: 2566 B.E, 1383 J.E, 2022 C.E
 Days: 354 days 
-Animal: KARL
+Zodiac: KARL
 Sequence: IV ចត្វាស័ក
 ```
 
@@ -72,7 +72,7 @@ khmercal "2022-11-11T10:11:54.654Z" --json
     "R"
   ],
   "sequence": 3,
-  "animal": "KARL",
+  "zodiac": "KARL",
   "years": {
     "JE": 1383,
     "CE": 2022,

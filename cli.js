@@ -23,7 +23,7 @@ yargs(hideBin(process.argv))
     const SAK = [
       'I ឯកស័ក',
       'II ទោស័ក',
-      'II ត្រីស័ក',
+      'III ត្រីស័ក',
       'IV ចត្វាស័ក',
       'V បញ្ចស័ក',
       'VI ឆស័ក',
@@ -38,7 +38,7 @@ yargs(hideBin(process.argv))
       'Month: <%= month.name %>\n' +
       'Years: <%= years.BE %> B.E, <%= years.JE %> J.E, <%= years.CE %> C.E\n' +
       'Days: <%= length %> days \n' +
-      'Animal: <%= animal %>\n' +
+      'Zodiac: <%= zodiac %>\n' +
       'Sequence: <%= sak %>'
     );
 

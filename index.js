@@ -37,7 +37,7 @@ export function lunar(date = new Date()) {
 
   function langSak(y) {
     const i = sakDay(y);
-    return { month: 4 + (i >= 6 && i <= 29) | 0, day: i };
+    return { month: 3 + (i >= 6 && i <= 29) | 0, day: i };
   }
 
   function sakDay(y) {
@@ -94,7 +94,7 @@ export function lunar(date = new Date()) {
   }
 
   date = new Date(date - 7 * 60 * 60 * 1000);
-
+  
   const CE = date.getFullYear();
   let y = CE - 638;
 
@@ -117,7 +117,8 @@ export function lunar(date = new Date()) {
   }
 
   const sak = langSak(y - 1);
-  const JE = y - 1 - ((sak.month > m || (sak.month === m && sak.day > m)) | 0)
+  const JE = y - 1 - ((sak.month > m || (sak.month === m && sak.day > date.getDate())) | 0)
+
   const yearMonths = [
     "MĬKÔSĔR",
     "BŎSS",
@@ -141,7 +142,7 @@ export function lunar(date = new Date()) {
     )
 
   
-  const ANIMAL_YEARS = [
+  const ZODIAC_YEARS = [
     "JUTE",
     "CHLOV",
     "KARL",
@@ -160,7 +161,7 @@ export function lunar(date = new Date()) {
     day,
     period: [(day - 1) % 15 + 1, day > 15 ? 'R' : 'K'],
     sequence: (((JE + 1) % 10) + 9) % 10,
-    animal: ANIMAL_YEARS[(((JE + 1) % 12) + 10) % 12],
+    zodiac: ZODIAC_YEARS[(((JE + 1) % 12) + 10) % 12],
     years: {
       JE,
       CE,
